@@ -1,0 +1,54 @@
+body{
+    height: 95vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248 250 252);
+    margin: auto;
+    align-items: center;
+}
+header{
+    padding-left: 4vh;
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+header img{
+    height: 30px;
+    margin: 10px;
+}
+header span{
+    color: rgb(100, 100, 250);
+}
+.imageBox{
+    margin-right: 2vh;
+}
+.firstBox{
+    height: 15vh;
+    width: fit-content;
+    padding: 0 2vh 0 4vh;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 30vw;
+}
+.input{
+    display: flex;
+    border: none;
+}
+button{
+    width: 10vw;
+    background-color: rgb(141, 141, 238);
+    color: white;
+    border: none;
+    
+}
